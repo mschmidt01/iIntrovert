@@ -2,15 +2,23 @@ import React from 'react';
 import { FlatList, StyleSheet, Text, View } from 'react-native';
 
 function LocationOverviewView(props) {
+  console.log(props.locations.values());
   if (props.locations.size === 0) {
     return null;
   }
   return(
     <View style={styles.container}>
-        <FlatList
-          data={props.locations}
-            renderItem={({item}) => <Text style={styles.item}>{item.id}{item.name}{item.address}]</Text>}
-        />
+        {[...props.locations.values()].reverse().map(location => (
+          <View>
+         <Text>{location.name}</Text>
+         <Text>{location.address}</Text>
+         <Text>{location.type}</Text>
+         <Text>{location.isFavorite}</Text>
+         <Text>{location.rating}</Text>
+         <Text>{location.popularTimes}</Text>
+         </View>
+        ))}
+ 
       </View>
  
   )

@@ -2,7 +2,7 @@ import Immutable from 'immutable';
 import {ReduceStore} from 'flux/utils';
 import LocationActionTypes from './LocationActionTypes';
 import ApplicationDispatcher from '../ApplicationDispatcher';
-import Location from 'location';
+import Location from './Location';
 class LocationStore extends ReduceStore{
     constructor(){
         super(ApplicationDispatcher);

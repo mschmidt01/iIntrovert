@@ -9,7 +9,7 @@ export default function App() {
   );
 }
 
-let location = {
+let location1 = {
   id: 0,
   name: 'THM',
   address: "Wilhelm-Leuschner-Straße 13, 61169 Friedberg (Hessen)",
@@ -20,4 +20,17 @@ let location = {
   popularTimes: [],
 }
 
-LocationActions.addLocation(location);
+let location2 = {
+  id: 1,
+  name: 'ALDI SÜD',
+  address: "Bahnhofstraße 66, 35390 Gießen ",
+  type: 'Supermarkt',
+  isFavorite: true,
+  coordinates: '41.354870,9.979690',
+  rating: 10.0,
+  popularTimes: [],
+}
+
+
+LocationActions.addLocation(location1);
+LocationActions.addLocation(location2);
