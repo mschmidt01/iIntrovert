@@ -15,7 +15,6 @@ class LocationStore extends ReduceStore{
         switch (action.type) {
             case LocationActionTypes.ADD_LOCATION:
                 const id = action.location.id;
-                console.log(id);
                 return state.set(
                     id,
                     new Location({

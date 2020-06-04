@@ -13,5 +13,4 @@ function getState(){
         locations: LocationStore.getState(),
     }
 }
-console.log(getStores())
 export default Container.createFunctional(AppView, getStores, getState)

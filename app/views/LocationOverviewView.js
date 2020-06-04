@@ -2,7 +2,6 @@ import React from 'react';
 import { FlatList, StyleSheet, Text, View } from 'react-native';
 
 function LocationOverviewView(props) {
-  console.log(props.locations.values());
   if (props.locations.size === 0) {
     return null;
   }
@@ -16,6 +15,8 @@ function LocationOverviewView(props) {
          <Text>{location.isFavorite}</Text>
          <Text>{location.rating}</Text>
          <Text>{location.popularTimes}</Text>
+         <Text>{location.coordinates}</Text>
+         <Text>{location.country}</Text>
          </View>
         ))}
  

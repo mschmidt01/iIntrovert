@@ -1,0 +1,1002 @@
+[
+	{
+		"id": 1,
+		"name": "Nisi Nibh Lacinia PC",
+		"adress": "6639 Odio Street",
+		"city": "Fairbanks",
+		"postal": "926018",
+		"country": "Kiribati",
+		"coordinates": "75.93086, -17.67125",
+		"type": "Fitnessstudio"
+	},
+	{
+		"id": 2,
+		"name": "Aliquet Nec Company",
+		"adress": "Ap #693-6157 Erat Rd.",
+		"city": "Firenze",
+		"postal": "92863-40615",
+		"country": "Bahamas",
+		"coordinates": "14.24295, 17.82846",
+		"type": "Restaurant"
+	},
+	{
+		"id": 3,
+		"name": "Adipiscing Incorporated",
+		"adress": "577-6858 Eleifend Ave",
+		"city": "Leicester",
+		"postal": "502568",
+		"country": "Guam",
+		"coordinates": "60.1274, 23.24557",
+		"type": "Restaurant"
+	},
+	{
+		"id": 4,
+		"name": "Ultrices Vivamus Rhoncus Corp.",
+		"adress": "P.O. Box 341, 3345 Etiam Ave",
+		"city": "Afşin",
+		"postal": "4347 ZE",
+		"country": "Guyana",
+		"coordinates": "-72.18432, 46.5643",
+		"type": "Supermarkt"
+	},
+	{
+		"id": 5,
+		"name": "Aenean Corporation",
+		"adress": "Ap #302-9761 Nec Av.",
+		"city": "Lavoir",
+		"postal": "71573",
+		"country": "Curaçao",
+		"coordinates": "36.05531, 26.69327",
+		"type": "Kino"
+	},
+	{
+		"id": 6,
+		"name": "Aliquam Ultrices Company",
+		"adress": "2995 Posuere Rd.",
+		"city": "Hamoir",
+		"postal": "594073",
+		"country": "France",
+		"coordinates": "50.5542, 24.45787",
+		"type": "Restaurant"
+	},
+	{
+		"id": 7,
+		"name": "Volutpat Nulla Dignissim Consulting",
+		"adress": "832-4627 Tellus St.",
+		"city": "Bolzano/Bozen",
+		"postal": "01-984",
+		"country": "Saint Pierre and Miquelon",
+		"coordinates": "37.14752, -78.82352",
+		"type": "Fitnessstudio"
+	},
+	{
+		"id": 8,
+		"name": "Vitae Mauris Sit Inc.",
+		"adress": "Ap #932-4475 Neque St.",
+		"city": "Santa Cruz de Lorica",
+		"postal": "A2G 3J0",
+		"country": "Micronesia",
+		"coordinates": "-42.58283, -171.1",
+		"type": "Restaurant"
+	},
+	{
+		"id": 9,
+		"name": "Dis Parturient Montes Consulting",
+		"adress": "379-9018 Nullam Street",
+		"city": "Sachs Harbour",
+		"postal": "59610-95080",
+		"country": "Egypt",
+		"coordinates": "-25.30308, 78.80737",
+		"type": "Hochschule"
+	},
+	{
+		"id": 10,
+		"name": "Lorem Eget Industries",
+		"adress": "2354 Enim, St.",
+		"city": "Civo",
+		"postal": "8204",
+		"country": "Mozambique",
+		"coordinates": "68.50291, 85.98187",
+		"type": "Supermarkt"
+	},
+	{
+		"id": 11,
+		"name": "Feugiat Sed Corporation",
+		"adress": "P.O. Box 917, 2174 Odio. Rd.",
+		"city": "Pointe-au-Pic",
+		"postal": "C7N 4W0",
+		"country": "Grenada",
+		"coordinates": "25.79609, -25.46573",
+		"type": "Restaurant"
+	},
+	{
+		"id": 12,
+		"name": "Odio Associates",
+		"adress": "P.O. Box 600, 5568 Odio. St.",
+		"city": "Pointe-au-Pic",
+		"postal": "691166",
+		"country": "Belgium",
+		"coordinates": "-89.63184, -40.34971",
+		"type": "Kino"
+	},
+	{
+		"id": 13,
+		"name": "Ac Inc.",
+		"adress": "P.O. Box 648, 5165 Venenatis Avenue",
+		"city": "San Gregorio",
+		"postal": "35345",
+		"country": "Angola",
+		"coordinates": "45.13046, -98.02407",
+		"type": "Kino"
+	},
+	{
+		"id": 14,
+		"name": "Erat Neque Company",
+		"adress": "152-2101 Aliquam Av.",
+		"city": "Dindigul",
+		"postal": "Z5526",
+		"country": "Saint Vincent and The Grenadines",
+		"coordinates": "7.26514, -11.7741",
+		"type": "Hochschule"
+	},
+	{
+		"id": 15,
+		"name": "Purus PC",
+		"adress": "Ap #305-9931 Ante Rd.",
+		"city": "Llangollen",
+		"postal": "02545-52655",
+		"country": "Sao Tome and Principe",
+		"coordinates": "84.18094, -177.54574",
+		"type": "Kino"
+	},
+	{
+		"id": 16,
+		"name": "Massa Rutrum Magna Corp.",
+		"adress": "8908 Habitant Street",
+		"city": "Sepino",
+		"postal": "957482",
+		"country": "Congo (Brazzaville)",
+		"coordinates": "-48.5437, 70.05926",
+		"type": "Fitnessstudio"
+	},
+	{
+		"id": 17,
+		"name": "Tempus Scelerisque LLC",
+		"adress": "116-1688 Non, Ave",
+		"city": "Precenicco",
+		"postal": "95308",
+		"country": "Moldova",
+		"coordinates": "43.19524, -85.158",
+		"type": "Restaurant"
+	},
+	{
+		"id": 18,
+		"name": "Mauris Sit LLC",
+		"adress": "Ap #193-4944 Lacinia St.",
+		"city": "Panketal",
+		"postal": "1821",
+		"country": "Romania",
+		"coordinates": "-37.77295, 97.02295",
+		"type": "Hochschule"
+	},
+	{
+		"id": 19,
+		"name": "Magna LLC",
+		"adress": "2487 Pede Rd.",
+		"city": "Marilles",
+		"postal": "24297",
+		"country": "Ghana",
+		"coordinates": "-36.23903, 159.52772",
+		"type": "Supermarkt"
+	},
+	{
+		"id": 20,
+		"name": "Libero At Institute",
+		"adress": "595 Faucibus Av.",
+		"city": "Liévin",
+		"postal": "19227",
+		"country": "Svalbard and Jan Mayen Islands",
+		"coordinates": "81.20668, -102.6373",
+		"type": "Fitnessstudio"
+	},
+	{
+		"id": 21,
+		"name": "Fusce Company",
+		"adress": "4014 Eu, Road",
+		"city": "Pariaman",
+		"postal": "252564",
+		"country": "Nicaragua",
+		"coordinates": "53.24737, -170.3179",
+		"type": "Restaurant"
+	},
+	{
+		"id": 22,
+		"name": "Adipiscing Fringilla Porttitor LLP",
+		"adress": "Ap #448-106 Parturient St.",
+		"city": "Märsta",
+		"postal": "59111",
+		"country": "Serbia",
+		"coordinates": "-62.95479, -97.89284",
+		"type": "Hochschule"
+	},
+	{
+		"id": 23,
+		"name": "Sociis Ltd",
+		"adress": "P.O. Box 459, 2055 Proin Rd.",
+		"city": "Saint-Quentin",
+		"postal": "22616",
+		"country": "Italy",
+		"coordinates": "-85.38226, -114.10898",
+		"type": "Restaurant"
+	},
+	{
+		"id": 24,
+		"name": "Donec Institute",
+		"adress": "Ap #873-5979 Blandit Rd.",
+		"city": "Feldkirch",
+		"postal": "57704",
+		"country": "Mongolia",
+		"coordinates": "49.03663, 37.78964",
+		"type": "Restaurant"
+	},
+	{
+		"id": 25,
+		"name": "Penatibus Limited",
+		"adress": "4643 Nullam Ave",
+		"city": "Rockville",
+		"postal": "42098",
+		"country": "United Kingdom (Great Britain)",
+		"coordinates": "48.8898, 171.52931",
+		"type": "Restaurant"
+	},
+	{
+		"id": 26,
+		"name": "Eget Corporation",
+		"adress": "122-9729 Sagittis. Ave",
+		"city": "Nethen",
+		"postal": "98169",
+		"country": "Turkey",
+		"coordinates": "-7.40739, 83.92678",
+		"type": "Supermarkt"
+	},
+	{
+		"id": 27,
+		"name": "Sed Pede Consulting",
+		"adress": "P.O. Box 212, 4016 Nulla Av.",
+		"city": "Spruce Grove",
+		"postal": "5119",
+		"country": "Denmark",
+		"coordinates": "80.42915, 78.61964",
+		"type": "Restaurant"
+	},
+	{
+		"id": 28,
+		"name": "Ac Libero Incorporated",
+		"adress": "9718 Bibendum. Ave",
+		"city": "Murwara",
+		"postal": "7141",
+		"country": "Armenia",
+		"coordinates": "-35.04315, 34.85754",
+		"type": "Supermarkt"
+	},
+	{
+		"id": 29,
+		"name": "Morbi Industries",
+		"adress": "5587 Nulla Rd.",
+		"city": "Anzegem",
+		"postal": "321324",
+		"country": "Armenia",
+		"coordinates": "62.63898, 132.23741",
+		"type": "Restaurant"
+	},
+	{
+		"id": 30,
+		"name": "Eu Ligula Industries",
+		"adress": "6504 Eu Av.",
+		"city": "St. Petersburg",
+		"postal": "17774",
+		"country": "Saint Vincent and The Grenadines",
+		"coordinates": "82.47105, 38.12861",
+		"type": "Kino"
+	},
+	{
+		"id": 31,
+		"name": "Integer In Magna PC",
+		"adress": "Ap #852-2393 Donec Avenue",
+		"city": "Momignies",
+		"postal": "9776",
+		"country": "Croatia",
+		"coordinates": "-39.52777, 59.58738",
+		"type": "Supermarkt"
+	},
+	{
+		"id": 32,
+		"name": "Risus Corporation",
+		"adress": "Ap #344-8551 Mauris Street",
+		"city": "Moerzeke",
+		"postal": "162595",
+		"country": "Falkland Islands",
+		"coordinates": "-14.36367, -51.47341",
+		"type": "Fitnessstudio"
+	},
+	{
+		"id": 33,
+		"name": "Ligula Eu Enim Corp.",
+		"adress": "9453 Cursus Street",
+		"city": "Coreglia Antelminelli",
+		"postal": "09151",
+		"country": "Burkina Faso",
+		"coordinates": "-16.27597, 37.24065",
+		"type": "Restaurant"
+	},
+	{
+		"id": 34,
+		"name": "Lacus LLC",
+		"adress": "P.O. Box 686, 875 Lorem Av.",
+		"city": "Shatura",
+		"postal": "403875",
+		"country": "Bahrain",
+		"coordinates": "-44.08033, 130.07016",
+		"type": "Supermarkt"
+	},
+	{
+		"id": 35,
+		"name": "Integer Mollis Integer Company",
+		"adress": "4909 Molestie. Rd.",
+		"city": "San Mauro Cilento",
+		"postal": "21813",
+		"country": "Martinique",
+		"coordinates": "-36.55198, 15.28771",
+		"type": "Fitnessstudio"
+	},
+	{
+		"id": 36,
+		"name": "Euismod Urna Inc.",
+		"adress": "1964 Lacus. Street",
+		"city": "Hearst",
+		"postal": "LS7N 7XF",
+		"country": "Azerbaijan",
+		"coordinates": "15.984, 98.48588",
+		"type": "Fitnessstudio"
+	},
+	{
+		"id": 37,
+		"name": "Gravida Sagittis Corporation",
+		"adress": "Ap #914-4200 Ullamcorper. Ave",
+		"city": "Lac-Serent",
+		"postal": "17923",
+		"country": "Western Sahara",
+		"coordinates": "-4.81912, 145.78841",
+		"type": "Hochschule"
+	},
+	{
+		"id": 38,
+		"name": "Eu Placerat Industries",
+		"adress": "Ap #522-8622 Lacus. St.",
+		"city": "Hamilton",
+		"postal": "2878",
+		"country": "Jamaica",
+		"coordinates": "-45.5913, -140.6584",
+		"type": "Kino"
+	},
+	{
+		"id": 39,
+		"name": "Eros LLC",
+		"adress": "5871 Egestas, Street",
+		"city": "Colorado Springs",
+		"postal": "59564",
+		"country": "Czech Republic",
+		"coordinates": "-53.77259, -103.00861",
+		"type": "Supermarkt"
+	},
+	{
+		"id": 40,
+		"name": "Risus Consulting",
+		"adress": "P.O. Box 329, 8863 At Rd.",
+		"city": "Urbe",
+		"postal": "25756",
+		"country": "Hong Kong",
+		"coordinates": "-70.17337, -63.36639",
+		"type": "Fitnessstudio"
+	},
+	{
+		"id": 41,
+		"name": "Aliquam Erat Volutpat Incorporated",
+		"adress": "330-2399 Urna, Street",
+		"city": "Thatta",
+		"postal": "989022",
+		"country": "South Africa",
+		"coordinates": "74.35274, 110.26014",
+		"type": "Fitnessstudio"
+	},
+	{
+		"id": 42,
+		"name": "Donec At Arcu LLC",
+		"adress": "493-7278 Semper Road",
+		"city": "Varena",
+		"postal": "6512",
+		"country": "Slovakia",
+		"coordinates": "18.83212, -53.96007",
+		"type": "Supermarkt"
+	},
+	{
+		"id": 43,
+		"name": "Cursus Diam At Industries",
+		"adress": "P.O. Box 415, 9631 Ad St.",
+		"city": "Fryazino",
+		"postal": "063021",
+		"country": "Canada",
+		"coordinates": "61.79398, -71.32109",
+		"type": "Hochschule"
+	},
+	{
+		"id": 44,
+		"name": "Vitae Ltd",
+		"adress": "Ap #249-1842 Laoreet Road",
+		"city": "San Benedetto del Tronto",
+		"postal": "H16 3BR",
+		"country": "Greece",
+		"coordinates": "37.22056, 67.58735",
+		"type": "Supermarkt"
+	},
+	{
+		"id": 45,
+		"name": "Penatibus Et Magnis PC",
+		"adress": "P.O. Box 460, 9449 Velit Av.",
+		"city": "Nuremberg",
+		"postal": "905576",
+		"country": "Romania",
+		"coordinates": "-58.37005, 165.00703",
+		"type": "Hochschule"
+	},
+	{
+		"id": 46,
+		"name": "Nunc Quisque Institute",
+		"adress": "8566 Ut Rd.",
+		"city": "Kulti-Barakar",
+		"postal": "2764 KS",
+		"country": "South Africa",
+		"coordinates": "67.69829, -90.08569",
+		"type": "Supermarkt"
+	},
+	{
+		"id": 47,
+		"name": "Mus Company",
+		"adress": "225-6989 Diam. Rd.",
+		"city": "Gorbea",
+		"postal": "16469-913",
+		"country": "Myanmar",
+		"coordinates": "-85.68301, 27.79752",
+		"type": "Supermarkt"
+	},
+	{
+		"id": 48,
+		"name": "Eget Incorporated",
+		"adress": "P.O. Box 340, 4155 Egestas Rd.",
+		"city": "Urbe",
+		"postal": "312892",
+		"country": "Malaysia",
+		"coordinates": "-26.75444, 73.30533",
+		"type": "Kino"
+	},
+	{
+		"id": 49,
+		"name": "In Magna Associates",
+		"adress": "150-7009 Mi Ave",
+		"city": "Monmouth",
+		"postal": "2858 ZE",
+		"country": "Finland",
+		"coordinates": "11.64981, 39.0738",
+		"type": "Supermarkt"
+	},
+	{
+		"id": 50,
+		"name": "Ante Dictum Mi PC",
+		"adress": "Ap #372-8974 Eleifend, Avenue",
+		"city": "Laguna Blanca",
+		"postal": "9557",
+		"country": "Jamaica",
+		"coordinates": "35.06543, 31.37809",
+		"type": "Fitnessstudio"
+	},
+	{
+		"id": 51,
+		"name": "Nullam Scelerisque Neque Ltd",
+		"adress": "Ap #491-9126 Pellentesque Av.",
+		"city": "Sapele",
+		"postal": "00-738",
+		"country": "Cameroon",
+		"coordinates": "58.6138, 37.87164",
+		"type": "Fitnessstudio"
+	},
+	{
+		"id": 52,
+		"name": "Semper Et Lacinia Consulting",
+		"adress": "Ap #419-4547 Velit. Rd.",
+		"city": "Pfungstadt",
+		"postal": "2484 RE",
+		"country": "Brazil",
+		"coordinates": "61.56526, 95.61634",
+		"type": "Restaurant"
+	},
+	{
+		"id": 53,
+		"name": "Ante Consulting",
+		"adress": "P.O. Box 569, 1578 Egestas. Av.",
+		"city": "Moere",
+		"postal": "01627",
+		"country": "Bolivia",
+		"coordinates": "-16.1011, -107.54121",
+		"type": "Kino"
+	},
+	{
+		"id": 54,
+		"name": "Adipiscing Lacus Ut PC",
+		"adress": "P.O. Box 422, 5242 Sed Street",
+		"city": "Noginsk",
+		"postal": "913387",
+		"country": "Trinidad and Tobago",
+		"coordinates": "55.3682, 146.71661",
+		"type": "Hochschule"
+	},
+	{
+		"id": 55,
+		"name": "Bibendum LLP",
+		"adress": "Ap #360-3678 Mattis Avenue",
+		"city": "Bahraich",
+		"postal": "24445",
+		"country": "Togo",
+		"coordinates": "-77.67951, 154.04359",
+		"type": "Restaurant"
+	},
+	{
+		"id": 56,
+		"name": "Morbi Non Corporation",
+		"adress": "P.O. Box 449, 8740 Adipiscing Avenue",
+		"city": "Hudiksvall",
+		"postal": "8352",
+		"country": "Singapore",
+		"coordinates": "-34.32895, -111.10822",
+		"type": "Kino"
+	},
+	{
+		"id": 57,
+		"name": "Eu LLC",
+		"adress": "P.O. Box 967, 9238 Euismod Street",
+		"city": "San Cesario di Lecce",
+		"postal": "29907-56870",
+		"country": "Tanzania",
+		"coordinates": "-54.48119, -26.05802",
+		"type": "Hochschule"
+	},
+	{
+		"id": 58,
+		"name": "Ullamcorper Duis LLC",
+		"adress": "P.O. Box 296, 356 Nec St.",
+		"city": "Pickering",
+		"postal": "483519",
+		"country": "Chad",
+		"coordinates": "72.67555, 152.90225",
+		"type": "Supermarkt"
+	},
+	{
+		"id": 59,
+		"name": "Bibendum Donec Felis LLC",
+		"adress": "251-8485 Aenean Ave",
+		"city": "Montbliart",
+		"postal": "498612",
+		"country": "Chad",
+		"coordinates": "3.66504, 83.81477",
+		"type": "Kino"
+	},
+	{
+		"id": 60,
+		"name": "Quisque Libero Lacus Limited",
+		"adress": "124-9255 Semper Ave",
+		"city": "Vilna",
+		"postal": "939695",
+		"country": "Albania",
+		"coordinates": "-44.83504, -90.5253",
+		"type": "Supermarkt"
+	},
+	{
+		"id": 61,
+		"name": "Suspendisse Sed Dolor Associates",
+		"adress": "3073 Mauris St.",
+		"city": "Gwalior",
+		"postal": "08-544",
+		"country": "Niue",
+		"coordinates": "-37.58445, 75.01117",
+		"type": "Fitnessstudio"
+	},
+	{
+		"id": 62,
+		"name": "Elit Fermentum Risus Limited",
+		"adress": "137-974 Ligula Road",
+		"city": "Rzeszów",
+		"postal": "15123",
+		"country": "Cameroon",
+		"coordinates": "-56.12729, 85.77705",
+		"type": "Restaurant"
+	},
+	{
+		"id": 63,
+		"name": "Curabitur Incorporated",
+		"adress": "P.O. Box 311, 9725 Nulla Av.",
+		"city": "Cwmbran",
+		"postal": "13-763",
+		"country": "Cayman Islands",
+		"coordinates": "85.92991, -66.29044",
+		"type": "Restaurant"
+	},
+	{
+		"id": 64,
+		"name": "Ut Dolor Foundation",
+		"adress": "6242 Nulla Rd.",
+		"city": "Las Vegas",
+		"postal": "86804-992",
+		"country": "Czech Republic",
+		"coordinates": "12.55935, -94.1961",
+		"type": "Fitnessstudio"
+	},
+	{
+		"id": 65,
+		"name": "Sociis Natoque Penatibus Institute",
+		"adress": "Ap #298-2521 A Ave",
+		"city": "Gold Coast",
+		"postal": "9790",
+		"country": "Falkland Islands",
+		"coordinates": "-70.74149, 175.76766",
+		"type": "Restaurant"
+	},
+	{
+		"id": 66,
+		"name": "Cursus Et Limited",
+		"adress": "569-8361 Vehicula Rd.",
+		"city": "Lampernisse",
+		"postal": "69371",
+		"country": "Tanzania",
+		"coordinates": "17.96462, 14.37907",
+		"type": "Supermarkt"
+	},
+	{
+		"id": 67,
+		"name": "Dui Semper Incorporated",
+		"adress": "Ap #662-7558 Ornare Road",
+		"city": "Sosnowiec",
+		"postal": "2020",
+		"country": "Romania",
+		"coordinates": "-76.82718, -81.21714",
+		"type": "Restaurant"
+	},
+	{
+		"id": 68,
+		"name": "Nulla Aliquet Corp.",
+		"adress": "Ap #955-1441 Cursus Road",
+		"city": "Mount Pearl",
+		"postal": "211618",
+		"country": "Netherlands",
+		"coordinates": "-63.8804, -110.63568",
+		"type": "Kino"
+	},
+	{
+		"id": 69,
+		"name": "Fusce Aliquam LLC",
+		"adress": "P.O. Box 743, 7868 Congue, Ave",
+		"city": "Fogliano Redipuglia",
+		"postal": "20717",
+		"country": "Australia",
+		"coordinates": "-43.93838, 100.35994",
+		"type": "Supermarkt"
+	},
+	{
+		"id": 70,
+		"name": "Ultrices Posuere Cubilia Corp.",
+		"adress": "Ap #489-7707 Aenean Rd.",
+		"city": "Alacant",
+		"postal": "56817",
+		"country": "Guadeloupe",
+		"coordinates": "-53.43918, 89.22526",
+		"type": "Fitnessstudio"
+	},
+	{
+		"id": 71,
+		"name": "Iaculis Enim Sit LLC",
+		"adress": "Ap #505-9743 Elit. Rd.",
+		"city": "Miami",
+		"postal": "85082",
+		"country": "Korea, South",
+		"coordinates": "-73.62008, 97.88666",
+		"type": "Kino"
+	},
+	{
+		"id": 72,
+		"name": "Urna Vivamus Molestie Limited",
+		"adress": "Ap #915-2280 A Ave",
+		"city": "Nanaimo",
+		"postal": "40904",
+		"country": "Saint Vincent and The Grenadines",
+		"coordinates": "-74.58747, 131.86054",
+		"type": "Restaurant"
+	},
+	{
+		"id": 73,
+		"name": "Nec Euismod In PC",
+		"adress": "P.O. Box 133, 5426 Egestas. Street",
+		"city": "San Pietro al Tanagro",
+		"postal": "528262",
+		"country": "El Salvador",
+		"coordinates": "-85.89278, 137.05866",
+		"type": "Hochschule"
+	},
+	{
+		"id": 74,
+		"name": "Ullamcorper Eu LLP",
+		"adress": "Ap #765-8404 Magna. Av.",
+		"city": "Rae-Edzo",
+		"postal": "27105",
+		"country": "Andorra",
+		"coordinates": "-19.64273, -178.55819",
+		"type": "Restaurant"
+	},
+	{
+		"id": 75,
+		"name": "Et Eros Proin PC",
+		"adress": "493-6593 Nonummy Street",
+		"city": "Ayr",
+		"postal": "48834",
+		"country": "Sierra Leone",
+		"coordinates": "-57.16341, -66.19102",
+		"type": "Kino"
+	},
+	{
+		"id": 76,
+		"name": "Nunc Consulting",
+		"adress": "Ap #594-4630 Aliquet Avenue",
+		"city": "Paradise",
+		"postal": "74386",
+		"country": "Åland Islands",
+		"coordinates": "-62.46402, 38.95585",
+		"type": "Kino"
+	},
+	{
+		"id": 77,
+		"name": "Nisi Limited",
+		"adress": "Ap #265-9631 Primis Street",
+		"city": "Cowdenbeath",
+		"postal": "7026",
+		"country": "Virgin Islands, United States",
+		"coordinates": "-44.08716, 157.70886",
+		"type": "Restaurant"
+	},
+	{
+		"id": 78,
+		"name": "Ac Ipsum Limited",
+		"adress": "465-4103 Et St.",
+		"city": "Perpignan",
+		"postal": "19375",
+		"country": "Montenegro",
+		"coordinates": "27.73399, -177.04947",
+		"type": "Fitnessstudio"
+	},
+	{
+		"id": 79,
+		"name": "Scelerisque Neque Limited",
+		"adress": "380-6199 Est Street",
+		"city": "Peñalolén",
+		"postal": "32150",
+		"country": "Kyrgyzstan",
+		"coordinates": "52.60692, 81.44465",
+		"type": "Supermarkt"
+	},
+	{
+		"id": 80,
+		"name": "Scelerisque Mollis Consulting",
+		"adress": "3637 Quisque Rd.",
+		"city": "Wierde",
+		"postal": "18561",
+		"country": "Namibia",
+		"coordinates": "-68.71403, -11.78319",
+		"type": "Supermarkt"
+	},
+	{
+		"id": 81,
+		"name": "Vitae Industries",
+		"adress": "P.O. Box 453, 1597 In Road",
+		"city": "Dreux",
+		"postal": "556345",
+		"country": "Poland",
+		"coordinates": "-10.99846, 178.37067",
+		"type": "Restaurant"
+	},
+	{
+		"id": 82,
+		"name": "Magna Lorem Ipsum LLP",
+		"adress": "P.O. Box 759, 4553 Eu Street",
+		"city": "Biez",
+		"postal": "43701",
+		"country": "South Africa",
+		"coordinates": "15.64134, -116.79468",
+		"type": "Kino"
+	},
+	{
+		"id": 83,
+		"name": "Arcu Imperdiet Ullamcorper Consulting",
+		"adress": "886-2227 Ultricies St.",
+		"city": "Dorgali",
+		"postal": "53927",
+		"country": "Serbia",
+		"coordinates": "22.71566, -90.76842",
+		"type": "Restaurant"
+	},
+	{
+		"id": 84,
+		"name": "Neque Institute",
+		"adress": "2560 Id Rd.",
+		"city": "Orito",
+		"postal": "5242",
+		"country": "Macao",
+		"coordinates": "54.46026, 24.85667",
+		"type": "Fitnessstudio"
+	},
+	{
+		"id": 85,
+		"name": "Donec LLP",
+		"adress": "1104 Ornare St.",
+		"city": "Fayetteville",
+		"postal": "4120",
+		"country": "New Zealand",
+		"coordinates": "-83.60487, -62.59107",
+		"type": "Kino"
+	},
+	{
+		"id": 86,
+		"name": "Mauris Institute",
+		"adress": "Ap #996-5822 A Rd.",
+		"city": "Chelsea",
+		"postal": "53573",
+		"country": "South Georgia and The South Sandwich Islands",
+		"coordinates": "6.87827, -56.75872",
+		"type": "Hochschule"
+	},
+	{
+		"id": 87,
+		"name": "Lectus Cum Sociis Ltd",
+		"adress": "9772 Vivamus Av.",
+		"city": "Lancaster",
+		"postal": "71442",
+		"country": "Moldova",
+		"coordinates": "86.75462, -83.73861",
+		"type": "Fitnessstudio"
+	},
+	{
+		"id": 88,
+		"name": "Tincidunt Nunc Ac PC",
+		"adress": "Ap #826-1839 Ipsum Av.",
+		"city": "Tourinnes-la-Grosse",
+		"postal": "6000 LQ",
+		"country": "Taiwan",
+		"coordinates": "39.39827, 163.90704",
+		"type": "Restaurant"
+	},
+	{
+		"id": 89,
+		"name": "Magna Ltd",
+		"adress": "Ap #162-8814 Ipsum St.",
+		"city": "Vertou",
+		"postal": "41606",
+		"country": "Papua New Guinea",
+		"coordinates": "55.11081, -38.80335",
+		"type": "Fitnessstudio"
+	},
+	{
+		"id": 90,
+		"name": "Nam Nulla Magna Corp.",
+		"adress": "598-3608 Rutrum Rd.",
+		"city": "Drumheller",
+		"postal": "5431",
+		"country": "Laos",
+		"coordinates": "13.13454, -33.30359",
+		"type": "Fitnessstudio"
+	},
+	{
+		"id": 91,
+		"name": "Dolor Egestas Consulting",
+		"adress": "6679 Arcu. Rd.",
+		"city": "Burnaby",
+		"postal": "56556-590",
+		"country": "Cayman Islands",
+		"coordinates": "47.9719, 151.17178",
+		"type": "Supermarkt"
+	},
+	{
+		"id": 92,
+		"name": "Ornare Company",
+		"adress": "225-9378 Facilisis Road",
+		"city": "Tramatza",
+		"postal": "1506",
+		"country": "Gibraltar",
+		"coordinates": "57.10765, 18.85742",
+		"type": "Restaurant"
+	},
+	{
+		"id": 93,
+		"name": "Convallis In Cursus Limited",
+		"adress": "P.O. Box 731, 8408 Eu Ave",
+		"city": "Gyeongsan",
+		"postal": "97369-201",
+		"country": "Egypt",
+		"coordinates": "-17.41967, -177.27252",
+		"type": "Fitnessstudio"
+	},
+	{
+		"id": 94,
+		"name": "Pellentesque Sed Dictum Ltd",
+		"adress": "1536 Tellus. Av.",
+		"city": "Bad Hersfeld",
+		"postal": "918697",
+		"country": "Switzerland",
+		"coordinates": "-20.53044, 109.77118",
+		"type": "Fitnessstudio"
+	},
+	{
+		"id": 95,
+		"name": "Elementum Ltd",
+		"adress": "P.O. Box 147, 2060 Tincidunt Rd.",
+		"city": "La Roche-sur-Yon",
+		"postal": "7010 UB",
+		"country": "Kyrgyzstan",
+		"coordinates": "20.78033, 116.45158",
+		"type": "Supermarkt"
+	},
+	{
+		"id": 96,
+		"name": "Nisi Sem Semper LLP",
+		"adress": "435-2877 Feugiat St.",
+		"city": "New Westminster",
+		"postal": "189706",
+		"country": "French Polynesia",
+		"coordinates": "6.7075, 175.96416",
+		"type": "Hochschule"
+	},
+	{
+		"id": 97,
+		"name": "Fermentum Metus Aenean Foundation",
+		"adress": "P.O. Box 279, 6390 Molestie Road",
+		"city": "Anand",
+		"postal": "01134",
+		"country": "Angola",
+		"coordinates": "28.3312, 110.06304",
+		"type": "Hochschule"
+	},
+	{
+		"id": 98,
+		"name": "Eu Accumsan Institute",
+		"adress": "P.O. Box 816, 714 Justo Street",
+		"city": "Andernach",
+		"postal": "846823",
+		"country": "Curaçao",
+		"coordinates": "-72.62764, 158.05761",
+		"type": "Fitnessstudio"
+	},
+	{
+		"id": 99,
+		"name": "Inceptos LLC",
+		"adress": "615-5815 Convallis Road",
+		"city": "Yurimaguas",
+		"postal": "757814",
+		"country": "Niue",
+		"coordinates": "-52.39077, -107.88185",
+		"type": "Kino"
+	},
+	{
+		"id": 100,
+		"name": "Pede Cras Vulputate Inc.",
+		"adress": "P.O. Box 212, 9452 Ac Street",
+		"city": "Minto",
+		"postal": "1465",
+		"country": "United States",
+		"coordinates": "43.44671, -24.45803",
+		"type": "Fitnessstudio"
+	}
+]
