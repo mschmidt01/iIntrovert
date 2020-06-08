@@ -7,8 +7,8 @@ import {
 import { NavigationContainer } from '@react-navigation/native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 
-import HomeScreen from './Screens/HomeScreen';
-import NewAppointment from './Screens/NewAppointment';
+import HomeScreen from './HomeScreen';
+import NewAppointment from './NewAppointment';
 import LocationOverviewView from './LocationOverviewView';
 
 const Drawer = createDrawerNavigator();
