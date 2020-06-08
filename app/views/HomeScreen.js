@@ -15,6 +15,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import NewAppointment from './NewAppointment.js';
 import SettingScreen from './Settings.js';
+import LocationOverviewView from './LocationOverviewView';
 
 const Tab = createBottomTabNavigator();
 const Stack = createStackNavigator();
