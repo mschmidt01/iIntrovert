@@ -2,10 +2,10 @@ import React from 'react';
 import { FlatList, StyleSheet, Text, View } from 'react-native';
 
 function LocationOverviewView(props) {
-  if (props.locations.size === 0) {
+  if (typeof props.locations != "undefined" && props.locations.size === 0) {
     return null;
   }
-  return(
+  /*return(
     <View style={styles.container}>
         {[...props.locations.values()].reverse().map(location => (
           <View>
@@ -22,7 +22,8 @@ function LocationOverviewView(props) {
  
       </View>
  
-  )
+  ) */
+  return null;
  }
  const styles = StyleSheet.create({
   container: {

@@ -1,4 +1,4 @@
-import AppView from '../views/AppView';
+import AppView from '../views/Appview';
 import {Container} from 'flux/utils';
 import LocationStore from '../data/location/LocationStore';
 

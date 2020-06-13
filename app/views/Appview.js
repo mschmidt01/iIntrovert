@@ -37,13 +37,13 @@ function FavoriteScreen({ navigation }) {
   );
 }
 
-export default function Appview() {
+export default function Appview(props) {
   return (
     <NavigationContainer>
-      <Drawer.Navigator initialRouteName="Home">
-        <Drawer.Screen name="Home" component={HomeScreen} />
-        <Drawer.Screen name="Gewohnheiten" component={HabitScreen} />
-        <Drawer.Screen name="Favoriten" component={FavoriteScreen} />      
+      <Drawer.Navigator initialRouteName="Home"  {...props} >
+        <Drawer.Screen name="Home" component={HomeScreen}  {...props} />
+        <Drawer.Screen name="Gewohnheiten" component={HabitScreen}  {...props} />
+        <Drawer.Screen name="Favoriten" component={FavoriteScreen} {...props}  />      
         </Drawer.Navigator>
     </NavigationContainer>
   );

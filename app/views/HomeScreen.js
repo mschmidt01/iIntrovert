@@ -22,7 +22,7 @@ const Stack = createStackNavigator();
 const Drawer = createDrawerNavigator();
 
 
-function ActivitiesScreen({ navigation }) {
+function ActivitiesScreen({ props,navigation }) {
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <View style={styles.screen}>
@@ -64,7 +64,7 @@ function CalendarScreen({ navigation }) {
   );
 }
 
-function ActivitiesStackScreen({ navigation }) {
+function ActivitiesStackScreen({props, navigation }) {
   return (
     <Stack.Navigator>
       <Stack.Screen
@@ -169,7 +169,7 @@ return (
   );
 }
 
-function HomeScreen() {
+function HomeScreen(props) {
   return (
     <Tab.Navigator
       screenOptions={({ route }) => ({
@@ -196,7 +196,7 @@ function HomeScreen() {
             backgroundColor: '#8a2be2',
             },
       }}>
-      <Tab.Screen name="Tätigkeiten" component={ActivitiesStackScreen} />
+      <Tab.Screen name="Tätigkeiten" component={ActivitiesStackScreen} {...props} />
       <Tab.Screen name="Maps" component={MapStackScreen} />
       <Tab.Screen name="Kalender" component={CalendarStackScreen} />
     </Tab.Navigator>
