@@ -16,6 +16,7 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 import NewAppointment from './NewAppointment.js';
 import SettingScreen from './Settings.js';
 import LocationOverviewView from './LocationOverviewView';
+//import { LocationMapView } from './LocationMapView'
 
 const Tab = createBottomTabNavigator();
 const Stack = createStackNavigator();
