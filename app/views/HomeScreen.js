@@ -22,12 +22,14 @@ const Stack = createStackNavigator();
 const Drawer = createDrawerNavigator();
 
 
-function ActivitiesScreen({ props,navigation }) {
+function ActivitiesScreen( props) {
+  const { locations } = props;
+  console.log(locations)
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <View style={styles.screen}>
 
-        <LocationOverviewView {...props} />
+        <LocationOverviewView locations={locations} />
 
         <TouchableOpacity
           onPress={() => navigation.navigate('Neuer Termin')}
@@ -64,35 +66,35 @@ function CalendarScreen({ navigation }) {
   );
 }
 
-function ActivitiesStackScreen({props, navigation }) {
+function ActivitiesStackScreen(props) {
+  const { locations } = props;
   return (
     <Stack.Navigator>
-      <Stack.Screen
-        name="iIntrovert"
-        title="Activities"
-        component={ActivitiesScreen}
-        options={{
-          title: 'iIntrovert',
-          headerStyle: { backgroundColor: '#8a2be2' },
-          headerTintColor: '#fff',
-          headerLeft: () => (
-            <MaterialCommunityIcons
-              name="menu"
-              size={30}
-              color="#fff"
-              onPress={() => navigation.openDrawer()}
-            />
-          ),
-          headerRight: () => (
-            <MaterialCommunityIcons
-              name="dots-vertical"
-              size={30}
-              color="#fff"
-              onPress={() => navigation.navigate('Settings')}
-            />
-          ),
-        }}
-      />
+      <Stack.Screen  name="iIntrovert"   title="Activities"  options={{
+            title: 'iIntrovert',
+            headerStyle: { backgroundColor: '#8a2be2' },
+            headerTintColor: '#fff',
+            headerLeft: () => (
+              <MaterialCommunityIcons
+                name="menu"
+                size={30}
+                color="#fff"
+                onPress={() => navigation.openDrawer()}
+              />
+            ),
+            headerRight: () => (
+              <MaterialCommunityIcons
+                name="dots-vertical"
+                size={30}
+                color="#fff"
+                onPress={() => navigation.navigate('Settings')}
+              />
+            ),
+          
+            }} > 
+            {props => <ActivitiesScreen {...props} locations={locations}/>} 
+            </Stack.Screen>
+
       <Stack.Screen name="Neuer Termin" component={NewAppointment} />
       <Stack.Screen name="Settings" component={SettingScreen} />
     </Stack.Navigator>
@@ -170,6 +172,8 @@ return (
 }
 
 function HomeScreen(props) {
+  const { locations } = props;
+  console.log(locations)
   return (
     <Tab.Navigator
       screenOptions={({ route }) => ({
@@ -196,7 +200,9 @@ function HomeScreen(props) {
             backgroundColor: '#8a2be2',
             },
       }}>
-      <Tab.Screen name="Tätigkeiten" component={ActivitiesStackScreen} {...props} />
+      <Tab.Screen name="Tätigkeiten">
+      {props => <ActivitiesStackScreen {...props}  locations={locations} />}
+      </Tab.Screen>
       <Tab.Screen name="Maps" component={MapStackScreen} />
       <Tab.Screen name="Kalender" component={CalendarStackScreen} />
     </Tab.Navigator>

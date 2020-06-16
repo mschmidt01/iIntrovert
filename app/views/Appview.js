@@ -10,6 +10,7 @@ import { createDrawerNavigator } from '@react-navigation/drawer';
 import HomeScreen from './HomeScreen';
 import NewAppointment from './NewAppointment';
 import LocationOverviewView from './LocationOverviewView';
+const LocationsContext = React.createContext('locations');
 
 const Drawer = createDrawerNavigator();
 
@@ -38,10 +39,13 @@ function FavoriteScreen({ navigation }) {
 }
 
 export default function Appview(props) {
+const { locations } = props;
   return (
     <NavigationContainer>
-      <Drawer.Navigator initialRouteName="Home"  {...props} >
-        <Drawer.Screen name="Home" component={HomeScreen}  {...props} />
+      <Drawer.Navigator initialRouteName="Home"  >
+        <Drawer.Screen name="Home" >
+          {props => <HomeScreen {...props} locations={locations}/>} 
+          </Drawer.Screen> 
         <Drawer.Screen name="Gewohnheiten" component={HabitScreen}  {...props} />
         <Drawer.Screen name="Favoriten" component={FavoriteScreen} {...props}  />      
         </Drawer.Navigator>

@@ -5,10 +5,11 @@ function LocationOverviewView(props) {
   if (typeof props.locations != "undefined" && props.locations.size === 0) {
     return null;
   }
-  /*return(
+  return(
     <View style={styles.container}>
         {[...props.locations.values()].reverse().map(location => (
           <View>
+          <Text>------------------------</Text>
          <Text>{location.name}</Text>
          <Text>{location.address}</Text>
          <Text>{location.type}</Text>
@@ -17,12 +18,13 @@ function LocationOverviewView(props) {
          <Text>{location.popularTimes}</Text>
          <Text>{location.coordinates}</Text>
          <Text>{location.country}</Text>
+         <Text>------------------------</Text>
          </View>
         ))}
  
       </View>
  
-  ) */
+  ) 
   return null;
  }
  const styles = StyleSheet.create({
