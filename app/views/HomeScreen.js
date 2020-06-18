@@ -16,7 +16,7 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 import NewAppointment from './NewAppointment.js';
 import SettingScreen from './Settings.js';
 import LocationOverviewView from './LocationOverviewView';
-//import { LocationMapView } from './LocationMapView'
+import  LocationMapView  from './LocationMapView'
 
 const Tab = createBottomTabNavigator();
 const Stack = createStackNavigator();
@@ -45,9 +45,7 @@ function ActivitiesScreen( props) {
 function MapScreen() {
   return (
     <SafeAreaView style={{ flex: 1 }}>
-      <View style={styles.screen}>
-        <Text>Welcome to Maps!</Text>
-      </View>
+      <LocationMapView></LocationMapView>
     </SafeAreaView>
   );
 }

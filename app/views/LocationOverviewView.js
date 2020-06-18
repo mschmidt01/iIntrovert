@@ -8,7 +8,7 @@ function LocationOverviewView(props) {
   return(
     <View style={styles.container}>
         {[...props.locations.values()].reverse().map(location => (
-          <View>
+          <View key={location.id}>
           <Text>------------------------</Text>
          <Text>{location.name}</Text>
          <Text>{location.address}</Text>

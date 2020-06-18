@@ -24,5 +24,5 @@ cd api && npm install
 ## Run the application
 ```
 cd app && npm start (running on http://localhost:3000/)
-cd api && npm start (running on http://localhost:9000/)
+cd api && npm start (running on http://localhost:6981/)
 ```
