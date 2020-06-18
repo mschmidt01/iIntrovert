@@ -13,6 +13,7 @@ import {
 import { Constants } from 'expo';
 
 export default class NewAppointment extends Component {
+  
   constructor() {
     super();
     this.state = {

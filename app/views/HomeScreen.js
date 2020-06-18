@@ -25,7 +25,8 @@ const Drawer = createDrawerNavigator();
 
 function ActivitiesScreen( props) {
   const { locations } = props;
-  console.log(locations)
+  const navigation = props.navigation;
+
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <View style={styles.screen}>
@@ -173,7 +174,6 @@ return (
 
 function HomeScreen(props) {
   const { locations } = props;
-  console.log(locations)
   return (
     <Tab.Navigator
       screenOptions={({ route }) => ({
