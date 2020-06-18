@@ -68,7 +68,8 @@ function CalendarScreen({ navigation }) {
 }
 
 function ActivitiesStackScreen(props) {
-  const { locations } = props;
+  const  locations  = props.locations;
+  const navigation = props.navigation;
   return (
     <Stack.Navigator>
       <Stack.Screen  name="iIntrovert"   title="Activities"  options={{
