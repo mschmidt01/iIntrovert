@@ -1,5 +1,6 @@
 import React from 'react';
 import { FlatList, StyleSheet, Text, View } from 'react-native';
+import JSONTree from 'react-native-json-tree'
 
 function LocationOverviewView(props) {
   if (typeof props.locations != "undefined" && props.locations.size === 0) {
@@ -7,21 +8,7 @@ function LocationOverviewView(props) {
   }
   return(
     <View style={styles.container}>
-        {[...props.locations.values()].reverse().map(location => (
-          <View key={location.id}>
-          <Text>------------------------</Text>
-         <Text>{location.name}</Text>
-         <Text>{location.address}</Text>
-         <Text>{location.type}</Text>
-         <Text>{location.isFavorite}</Text>
-         <Text>{location.rating}</Text>
-         <Text>{location.popularTimes}</Text>
-         <Text>{location.coordinates}</Text>
-         <Text>{location.country}</Text>
-         <Text>------------------------</Text>
-         </View>
-        ))}
- 
+          <JSONTree data={props.locations} />
       </View>
  
   ) 

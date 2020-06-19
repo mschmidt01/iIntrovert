@@ -9,10 +9,10 @@ export default class MongoDBLocationService{
       getLocations(res){
         let locations;
         const MongoClient = require('mongodb').MongoClient;
-        const uri = "mongodb+srv://admin:admin@cluster0-3zlvj.mongodb.net/iIntrovert?retryWrites=true&w=majority";
+        const uri = "mongodb+srv://iIntrovert:admin@cluster0-f8krs.mongodb.net/introvert?retryWrites=true&w=majority";
         const client = new MongoClient(uri, { useNewUrlParser: true });
          client.connect(err => {
-          const collection = client.db("iIntrovert").collection("locations");
+          const collection = client.db("introvert").collection("locations");
           collection.find().toArray(function(err, result) {
             if (err) {
               throw err;

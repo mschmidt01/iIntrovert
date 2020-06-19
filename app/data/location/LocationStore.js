@@ -20,15 +20,15 @@ class LocationStore extends ReduceStore{
                     new Location({
                         id,
                         name: action.location.name,
-                        address: action.location.address,
+                        address: action.location.adress,
                         type: action.location.type,
                         isFavorite: action.location.isFavorite,
-                        coordinates: action.location.coordinates,
                         rating: action.location.rating,
-                        popularTimes: [],
+                        popularTimes: action.location.popularTimes,
+                        coordinates: action.location.coordinates,
+                        country: action.location.country
                     })
                 );
-        
             default:
                 return state;
         }
