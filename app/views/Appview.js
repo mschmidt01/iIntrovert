@@ -1,4 +1,8 @@
-import React from 'react';
+import React,{ useState} from "react"
+import { createStackNavigator } from '@react-navigation/stack';
+const Stack = createStackNavigator();
+
+
 import {
   Button,
   View,
@@ -8,9 +12,9 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 
 import HomeScreen from './HomeScreen';
-import NewAppointment from './NewAppointment';
-import LocationOverviewView from './LocationOverviewView';
-const LocationsContext = React.createContext('locations');
+import LoginView from './LoginView';
+import RegisterUserView from './RegisterUserView';
+//const LocationsContext = React.createContext('locations');
 
 const Drawer = createDrawerNavigator();
 
@@ -39,16 +43,31 @@ function FavoriteScreen({ navigation }) {
 }
 
 export default function Appview(props) {
-const { locations } = props;
-  return (
-    <NavigationContainer>
-      <Drawer.Navigator initialRouteName="Home"  >
+  const { locations } = props;
+  //const [signedIn, setSignedIn] = useState(false);
+  let signedIn = false;
+  //const [count, setCount] = useState(0);
+
+
+ //setSignedIn()
+    return (
+      <NavigationContainer>
+
+      {signedIn ? (
+        <Drawer.Navigator initialRouteName="Home"  >
         <Drawer.Screen name="Home" >
-          {props => <HomeScreen {...props} locations={locations}/>} 
-          </Drawer.Screen> 
+          {props => <HomeScreen {...props} locations={locations} />}
+        </Drawer.Screen>
         <Drawer.Screen name="Gewohnheiten" component={HabitScreen}  {...props} />
-        <Drawer.Screen name="Favoriten" component={FavoriteScreen} {...props}  />      
-        </Drawer.Navigator>
-    </NavigationContainer>
-  );
-}  
+        <Drawer.Screen name="Favoriten" component={FavoriteScreen} {...props} />
+      </Drawer.Navigator>
+      ) : (
+        <Stack.Navigator initialRouteName="Login">
+        <Stack.Screen name="Login" component={LoginView} />
+         <Stack.Screen name="Register" component={RegisterUserView} /> 
+        </Stack.Navigator>
+      )}
+        
+      </NavigationContainer>
+    );
+  }
