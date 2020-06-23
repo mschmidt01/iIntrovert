@@ -33,11 +33,18 @@ function ActivitiesScreen( props) {
 
         <LocationOverviewView locations={locations} />
 
-        <TouchableOpacity
-          onPress={() => navigation.navigate('Neuer Termin')}
-          style={styles.fab}>
-          <Text style={styles.fabIcon}>+</Text>
-        </TouchableOpacity>
+        <TouchableOpacity style={styles.but}
+        onPress={() =>  navigation.navigate('Neuer Termin')}>
+      
+        <Text
+          style={styles.fabIcon}>
+          +
+        </Text>
+      </TouchableOpacity>
+
+
+
+        
       </View>
     </SafeAreaView>
   );
@@ -172,7 +179,7 @@ return (
   );
 }
 
-function HomeScreen(props) {
+function Navigation(props) {
   const { locations } = props;
   return (
     <Tab.Navigator
@@ -209,7 +216,7 @@ function HomeScreen(props) {
   );
 }
 
-export default HomeScreen;
+export default Navigation;
 
 const styles = StyleSheet.create({
   screen: { flex: 1, justifyContent: 'center', alignItems: 'center' },

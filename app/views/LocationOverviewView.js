@@ -1,6 +1,6 @@
 import React from 'react';
 import { FlatList, StyleSheet, Text, View } from 'react-native';
-import JSONTree from 'react-native-json-tree'
+import JSONTree from 'react-native-json-tree';
 
 function LocationOverviewView(props) {
   if (typeof props.locations != "undefined" && props.locations.size === 0) {

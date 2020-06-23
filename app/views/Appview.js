@@ -7,7 +7,7 @@ import {
 import { NavigationContainer } from '@react-navigation/native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 
-import HomeScreen from './HomeScreen';
+import Navigation from './Navigation';
 import NewAppointment from './NewAppointment';
 import LocationOverviewView from './LocationOverviewView';
 const LocationsContext = React.createContext('locations');
@@ -44,7 +44,7 @@ const { locations } = props;
     <NavigationContainer>
       <Drawer.Navigator initialRouteName="Home"  >
         <Drawer.Screen name="Home" >
-          {props => <HomeScreen {...props} locations={locations}/>} 
+          {props => <Navigation {...props} locations={locations}/>} 
           </Drawer.Screen> 
         <Drawer.Screen name="Gewohnheiten" component={HabitScreen}  {...props} />
         <Drawer.Screen name="Favoriten" component={FavoriteScreen} {...props}  />      
