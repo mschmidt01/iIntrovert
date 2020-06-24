@@ -2,13 +2,22 @@ import React, { useState } from 'react';
 import {
     View,
     TextInput,
-    Button
+    Button,
+    Text
   } from 'react-native';
   import UserActions from '../data/user/UserActions'
 
-export default function LoginView({navigation}) {
-    const [username, setUsername] = useState('');
-    const [password, setPassword] = useState(''); 
+export default function LoginView(props) {
+  console.log(props)
+
+  const { user } = props;
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState(''); 
+
+  console.log(user)
+
+
+  
 
     function signIn(user){
         UserActions.loginUser(user)
@@ -17,6 +26,7 @@ export default function LoginView({navigation}) {
     
     return (
       <View>
+        <Text>{user}</Text>
          <TextInput
           placeholder="Username"
           value={username}

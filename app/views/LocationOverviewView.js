@@ -6,13 +6,13 @@ function LocationOverviewView(props) {
   if (typeof props.locations != "undefined" && props.locations.size === 0) {
     return null;
   }
+  console.log(props)
   return(
     <View style={styles.container}>
           <JSONTree data={props.locations} />
       </View>
  
   ) 
-  return null;
  }
  const styles = StyleSheet.create({
   container: {

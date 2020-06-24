@@ -4,7 +4,6 @@ import LocationActions from './data/location/LocationActions';
 import Constants from 'expo-constants';
 
 const { manifest } = Constants;
-console.log(manifest)
 const uri = `http://${manifest.debuggerHost.split(':').shift()}:6981`;
 
 export default function App() {

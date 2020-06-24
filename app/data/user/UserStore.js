@@ -12,21 +12,27 @@ class UserStore extends ReduceStore{
     }
 
     reduce(state, action){
+        //console.log(typeof action.type);
+
+        //console.log(action.type);
         switch (action.type) {
-            case UserActionTypes.LOGIN_USER:
-                const userid = user.id;
+           //
+            case "login":
+                const user = action.user;
+                const userid = user.username;
                 return state.set(
                     userid,
                     new User({
-                        userid,
-                        sessionId: action.user.sessionId,
-                        username: action.user.username,
+                        username,
+                        sessionId: user.sessionId,
+                        username: user.username,
                     })
                 );
+                
             default:
                 return state;
         }
     }
 }
 
-export default new LocationStore();
+export default new UserStore();

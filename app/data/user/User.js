@@ -1,14 +1,9 @@
 import Immutable from 'immutable';
 
-const Location = Immutable.Record({
+const User = Immutable.Record({
     id: '',
-    name: '',
-    address: '',
-    type: '',
-    isFavorite: false,
-    coordinates: '',
-    rating: 0.0,
-    popularTimes: [],
+    username: '',
+    sessionId: '',
 })
 
-export default Location;
+export default User;

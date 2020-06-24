@@ -26,7 +26,6 @@ export default function LocationMapView() {
         longitudeDelta: 0.0421,
       };
       setMapRegion(mapRegion)
-      console.log(mapRegion)
       }
       catch(error){
         let status = Location.getProviderStatusAsync()
@@ -43,7 +42,6 @@ export default function LocationMapView() {
     text = errorMsg;
   } else if (location) {
     text = JSON.stringify(location);
-    console.log(text);
   }
 
 

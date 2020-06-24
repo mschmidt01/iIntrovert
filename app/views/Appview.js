@@ -43,11 +43,13 @@ function FavoriteScreen({ navigation }) {
 }
 
 export default function Appview(props) {
-  const { locations } = props;
-  //const [signedIn, setSignedIn] = useState(false);
-  let signedIn = false;
+
+  const { locations } = props.locations;
+  const { user } = props.user;
+  var signedIn = true;
   //const [count, setCount] = useState(0);
 
+  console.log("Appview",props);
 
  //setSignedIn()
     return (
@@ -62,8 +64,9 @@ export default function Appview(props) {
         <Drawer.Screen name="Favoriten" component={FavoriteScreen} {...props} />
       </Drawer.Navigator>
       ) : (
+       
         <Stack.Navigator initialRouteName="Login">
-        <Stack.Screen name="Login" component={LoginView} />
+        <Stack.Screen name="Login" component={LoginView}  user={user}/>
          <Stack.Screen name="Register" component={RegisterUserView} /> 
         </Stack.Navigator>
       )}

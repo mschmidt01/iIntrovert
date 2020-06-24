@@ -14,7 +14,6 @@ export default class RandomPopularTimesGenerator{
         const client = new MongoClient(uri, { useNewUrlParser: true });
          client.connect(err => {
           const collection = client.db("introvert").collection("locations");
-          console.log(collection.find())
           collection.find().toArray(function(err, result) {
             if (err) {
                 console.log(err);
