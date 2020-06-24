@@ -17,6 +17,10 @@ import NewAppointment from './NewAppointment.js';
 import SettingScreen from './Settings.js';
 import LocationOverviewView from './LocationOverviewView';
 import  LocationMapView  from './LocationMapView'
+import {Calendar, CalendarList, Agenda} from 'react-native-calendars';
+
+import { Dimensions } from 'react-native';
+
 
 const Tab = createBottomTabNavigator();
 const Stack = createStackNavigator();
@@ -52,10 +56,18 @@ function MapScreen() {
 }
 
 function CalendarScreen({ navigation }) {
+  const windowWidth = Dimensions.get('window').width;
+  const windowHeight = Dimensions.get('window').height - 100 ; // TODO: subtract header height!!!!
+  
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <View style={styles.screen}>
-        <Text>Welcome to Calendar!</Text>
+       <Calendar style={{
+          borderWidth: 1,
+          borderColor: 'gray',
+          height: windowHeight,
+          width: windowWidth,
+      }}></Calendar>
         <TouchableOpacity
           onPress={() => navigation.navigate('Neuer Termin')}
           style={styles.fab}>

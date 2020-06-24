@@ -13,7 +13,7 @@ export default class MongoDBLocationService{
         const client = new MongoClient(uri, { useNewUrlParser: true });
          client.connect(err => {
           const collection = client.db("introvert").collection("locations");
-          collection.find().toArray(function(err, result) {
+          collection.find().limit(10).toArray(function(err, result) {
             if (err) {
               throw err;
             }
